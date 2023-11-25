@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['blue rare', 'medium', 'medium rare', 'medium well done', 'rare', 'well done']
+
+roboflow:
+  workspace: kangwon-national-university-uqfeh
+  project: detect_steak
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kangwon-national-university-uqfeh/detect_steak/dataset/2
