@@ -1,8 +1,8 @@
 from ultralytics import YOLO
 import cv2
 
-model = YOLO("./runs/detect/train/weights/best.pt")
-img = cv2.imread("./assets/steak2.jpg")
+model = YOLO("./runs/detect/train3/weights/best.pt")
+img = cv2.imread("./assets/steak.jpg")
 
 results = model(img)  # predict on an image
 annotated_img = results[0].plot()
